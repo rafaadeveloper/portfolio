@@ -2,7 +2,7 @@ export function Description() {
   return (
     <div className="text-secondary max-w-md">
       <p>
-        I'm a <span className="text-primary">Frontend Software Engineer</span>
+        I'm a <span className="text-primary">Front-end developer</span>
       </p>
 
       <p>
