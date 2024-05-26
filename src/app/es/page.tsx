@@ -1,4 +1,4 @@
-import { AboutIndex } from "@/components/About/Index";
+import { AboutIndex } from "@/components/AboutEs/Index";
 import { Header } from "@/components/Header";
 
 export default function Home() {

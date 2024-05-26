@@ -1,3 +1,5 @@
+import { Select } from "./Select/Select";
+
 export function Header() {
   const links = [
     {
@@ -16,6 +18,7 @@ export function Header() {
           {link.label}
         </a>
       ))}
+      <Select />
     </header>
   );
 }
