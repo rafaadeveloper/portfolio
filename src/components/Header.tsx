@@ -10,10 +10,11 @@ export function Header() {
 
   return (
     <header className="ml-auto flex items-center gap-8 text-secondary">
-      {links.map((link) => (
+      {links.map((link, index) => (
         <a
           className="text-primary underline-offset-4 hover:underline hover:transition-all hover:duration-300"
           href={link.link}
+          key={index}
         >
           {link.label}
         </a>

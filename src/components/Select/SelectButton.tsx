@@ -2,12 +2,11 @@
 
 import clsx from "clsx";
 import { useVisibility } from "@/state/useVisibility";
-import { FlagEn, FlagEs, FlagPt } from "../Flags";
-import { useRouter } from "next/router";
+import { FlagEn } from "../Flags";
 
 export function SelectButton() {
   const frame = useVisibility();
-  const router = useRouter();
+  
   return (
     <div
       onClick={() => frame.setVisibility(!frame.visibility)}
@@ -16,9 +15,7 @@ export function SelectButton() {
         frame.visibility ? "bg-blue-200/10" : "bg-transparent"
       )}
     >
-      {router.pathname === "/" && <FlagEn />}
-      {router.pathname === "/pt-BR" && <FlagPt />}
-      {router.pathname === "/es" && <FlagEs />}
+      <FlagEn />
     </div>
   );
 }
