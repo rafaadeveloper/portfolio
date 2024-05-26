@@ -8,6 +8,7 @@ export function Button({ ...props }: ButtonProps) {
       className="bg-primary text-background px-8 py-2 rounded-full font-semibold hover:bg-primary/80"
       {...props}
       href="mailto:rafadevcontatos@gmail.com"
+      target="_blank"
     />
   );
 }
