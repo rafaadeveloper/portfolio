@@ -8,7 +8,7 @@ export function ContactMe() {
       <div className="flex flex-row items-start gap-3">
         <a
           target="_blank"
-          href="https://wa.me/11990076153"
+          href="https://wa.me/5511990076153"
           className="w-auto h-auto p-1.5 rounded-md flex items-center justify-center border border-solid border-white/10 hover:border-white hover:transition-all hover:duration-300"
         >
           <Phone size={24} />
